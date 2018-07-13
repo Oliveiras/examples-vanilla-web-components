@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>2-list</title>
+</head>
+<body>
+    <h1>Example list</h1>
+    <p>The list below have as many items as the global variable "myList".</p>
+
+    <!-- Pass an attribute to the custom element. -->
+    <va-list items="myList"></va-list>
+
+    <!-- Create a variable with the same name as the value passed in the custom attribute. -->
+    <script>
+        var myList = [
+            {code: 1, name: 'Alpha'},
+            {code: 2, name: 'Bravo'},
+            {code: 3, name: 'Charlie'},
+        ];
+    </script>
+    
+    <link rel="import" href="va-list/va-list.html">
+</body>
+</html>

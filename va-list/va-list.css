@@ -1,0 +1,13 @@
+ul {
+    background-color: #FFFFCC;
+}
+
+li {
+    margin: 4px;
+    padding: 4px;
+    background-color: #CCFFFF;
+}
+
+.code, .name {
+    color: #CC0000;
+}

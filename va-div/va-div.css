@@ -1,0 +1,13 @@
+/* This style affect only div's inside the shadow-root. */
+div {
+    width: 300px;
+    height: 200px;
+    background-color: #FFFFCC;
+}
+
+/* This style affect only paragraphs inside the shadow-root. */
+p {
+    margin: 4px;
+    padding: 4px;
+    background-color: #CCFFFF;
+}
